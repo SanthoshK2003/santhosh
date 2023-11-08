@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Navbar = () => {
+function Header() {
+  const headerStyles = {
+    color: "blue", 
+    textAlign: "center",
+  };
+
   return (
-    <div>Navbar</div>
-  )
+    <div className="header">
+      <h1 style={headerStyles}>FORM</h1>
+    </div>
+  );
 }
 
-export default Navbar
+export default Header;
